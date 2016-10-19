@@ -42,4 +42,6 @@ This starter kit is created with http://liberty-starter.wasdev.developer.ibm.com
   </settings>
   ```
 
-* `mvn install` will compile, test, package and deploy the application to Bluemix.
+* `mvn install` will compile, test, package and deploy the application to Bluemix.^
+
+* To verify the application, check https://calc-sum-service-cryghton.eu-gb.mybluemix.net/calc-sum-service-cryghton/
