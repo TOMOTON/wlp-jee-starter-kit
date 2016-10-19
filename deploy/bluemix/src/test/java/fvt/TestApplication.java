@@ -30,7 +30,7 @@ public class TestApplication {
     public void testDeployment() {
     	try {
     		// Give the application a few seconds to get started.
-			Thread.sleep(30000l);
+			Thread.sleep(60000l);
 		} catch (InterruptedException e) {
 			e.printStackTrace();
 		}

@@ -2,8 +2,8 @@
     <modelVersion>4.0.0</modelVersion>
 
 
-    <groupId>my-parent-groupid</groupId>
-    <artifactId>my-artifact-id</artifactId>
+    <groupId>com.tomoton</groupId>
+    <artifactId>calc-sum-service-cryghton</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
 
@@ -26,7 +26,7 @@
         <wlpServerName>LibertyProjectServer</wlpServerName>
         <testServerHttpPort>9080</testServerHttpPort>
         <testServerHttpsPort>9443</testServerHttpsPort>
-        <warName>my-artifact-id-application</warName>
+        <warName>calc-sum-service-cryghton-application</warName>
         <warVersion>1.0-SNAPSHOT</warVersion>
         <!--This is set in the ibm-web-ext.xml file -->
         <warContext>${app.name}</warContext>
@@ -34,9 +34,9 @@
         <packaging.type>usr</packaging.type>
 
         <!-- Cloud Foundry/Bluemix properties -->
-        <cf.context>mybluemix.net</cf.context>
-        <cf.target>https://api.ng.bluemix.net</cf.target>
-        <cf.space>dev</cf.space>
+        <cf.context>eu-gb.mybluemix.net</cf.context>
+        <cf.target>https://api.eu-gb.bluemix.net</cf.target>
+        <cf.space>Development</cf.space>
         <cf.context.root>${cf.host}.${cf.context}/${warContext}</cf.context.root>
 
         <!-- The Cloud Foundry or Bluemix organization, username and password can be
@@ -46,7 +46,7 @@
         <!-- <cf.password></cf.password> -->
         <!-- This is the host for your app in Bluemix and what it will be called in the dashboard. -->
         <cf.host>${app.name}</cf.host>
-        <app.name>my-artifact-id</app.name>
+        <app.name>calc-sum-service-cryghton</app.name>
     </properties>
 
     <repositories>
