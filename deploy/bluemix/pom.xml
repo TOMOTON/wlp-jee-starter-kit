@@ -108,6 +108,13 @@
                     <password>${cf.password}</password>
                     <appname>${cf.host}</appname>
                     <memory>512</memory>
+                    <services>
+                    	<service>
+                    		<name>Service Disco Baby</name>
+                    		<label>Service Disco Baby</label>
+                    		<plan>free</plan>
+                    	</service>
+                    </services>
                 </configuration>
                 <executions>
                     <execution>
